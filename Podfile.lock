@@ -1,0 +1,31 @@
+PODS:
+  - BlocksKit (2.0.0):
+    - BlocksKit/All
+  - BlocksKit/All (2.0.0):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.0.0)
+  - BlocksKit/DynamicDelegate (2.0.0):
+    - libffi
+  - BlocksKit/MessageUI (2.0.0):
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.0.0):
+    - BlocksKit/DynamicDelegate
+  - libffi (3.0.13)
+  - MBLocationManager (0.1.1)
+  - SparkInspector (1.1.3)
+
+DEPENDENCIES:
+  - BlocksKit
+  - MBLocationManager
+  - SparkInspector
+
+SPEC CHECKSUMS:
+  BlocksKit: b29ee3f28ba06a09f5c64987314ce5b75b2c3962
+  libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
+  MBLocationManager: 5ffd6382e434a6324258c7c263d531c6fd1027e7
+  SparkInspector: 5a59cc77d5c60c843e183315f2f6a75f88a0f317
+
+COCOAPODS: 0.29.0
