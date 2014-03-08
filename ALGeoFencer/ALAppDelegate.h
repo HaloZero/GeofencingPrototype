@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ALAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ALAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 
 extern const NSString *kMonitoredLocationsKey;
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, atomic) NSMutableArray *messages;
+
++ (ALAppDelegate *)instance;
 
 @end

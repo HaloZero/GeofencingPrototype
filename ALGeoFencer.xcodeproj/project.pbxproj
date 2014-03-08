@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936A8FE018CA98AA0099921A /* ALLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936A8FDF18CA98AA0099921A /* ALLogViewController.m */; };
 		9390D41718C93A9600203FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9390D41618C93A9600203FA3 /* Foundation.framework */; };
 		9390D41918C93A9600203FA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9390D41818C93A9600203FA3 /* CoreGraphics.framework */; };
 		9390D41B18C93A9600203FA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9390D41A18C93A9600203FA3 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		936A8FDE18CA98AA0099921A /* ALLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLogViewController.h; sourceTree = "<group>"; };
+		936A8FDF18CA98AA0099921A /* ALLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLogViewController.m; sourceTree = "<group>"; };
 		9390D41318C93A9600203FA3 /* ALGeoFencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALGeoFencer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9390D41618C93A9600203FA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9390D41818C93A9600203FA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				9390D42518C93A9600203FA3 /* ALAppDelegate.h */,
 				9390D42618C93A9600203FA3 /* ALAppDelegate.m */,
 				9390D42818C93A9600203FA3 /* Main.storyboard */,
+				936A8FDE18CA98AA0099921A /* ALLogViewController.h */,
+				936A8FDF18CA98AA0099921A /* ALLogViewController.m */,
 				9390D42B18C93A9600203FA3 /* ALMasterViewController.h */,
 				9390D42C18C93A9600203FA3 /* ALMasterViewController.m */,
 				9390D44E18C93B5700203FA3 /* ALMonitoredLocation.h */,
@@ -328,6 +333,7 @@
 				9390D45618C93B5700203FA3 /* ALRegionMapViewController.m in Sources */,
 				9390D42318C93A9600203FA3 /* main.m in Sources */,
 				9390D43018C93A9600203FA3 /* ALDetailViewController.m in Sources */,
+				936A8FE018CA98AA0099921A /* ALLogViewController.m in Sources */,
 				9390D42718C93A9600203FA3 /* ALAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
